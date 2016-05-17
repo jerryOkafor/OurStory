@@ -1,0 +1,505 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: HALEX- HTML Mobile Template
+    Template URI: http://bootexperts.com
+    Description: This is Mobile Template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+    2. left sidebar css
+  	3. right side bar css
+    4. home css
+    5. familiy  page css
+    6. our-story  page css
+    7. gallery  page css
+    8. invitation page css
+    9. registry page css
+    10. rsvp page css
+
+
+
+
+	
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;font-family: 'Raleway', sans-serif;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;font-weight: 300;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;font-family: 'Raleway', sans-serif;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;color:#777}
+a:hover {
+  color: #168BF2;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+a.closebutton{float: right;font-size: 25px;
+padding: 10px;color:#fff;}
+.clear{clear:both}
+input[type=text]:focus,input[type=email]:focus,input[type=number]:focus,input[type=password]:focus,.contact-form textarea:focus,.contact-form select:focus{border:1px solid #D44072;}
+.mt-0{margin-bottom: 0}
+.mt-10{margin-bottom: 10px;}
+/*------------------------
+2. menu font-css
+--------------------------*/
+.mainmenu .row .col-50 {
+  width: calc((100% - 10px * 1) / 2);
+}
+.menupage {
+  background: rgba(0, 0, 0, 0) url("../img/menu-bg.jpg") no-repeat scroll center center / cover ;
+  color: #ffffff;
+  min-height: 100%;
+}
+.mainmenu {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0 10px;
+  width: 240px;
+  min-height: 100%;
+
+}
+.logo-box {
+  display: block;
+  margin: 0;
+  padding: 68px 0;
+  text-align: center;
+}
+.item-link.close-panel > img {
+  display: block;
+  margin: auto auto 8px;
+}
+.menu a {
+  color: #ffffff;
+  display: block;
+  font-weight: 500;
+  padding: 20px 5px;
+  text-transform: uppercase;
+}
+.menu {
+  margin: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.46);
+  margin-bottom: 10px;
+}
+
+.tabbar-fixed .page-content, .tabbar-through .page-content, .toolbar-fixed .page-content, .toolbar-through .page-content {
+  padding-bottom: 0px;
+}
+.navbar-fixed .page-content, .navbar-through .page-content {
+  padding-top: 0;
+}
+
+/*------------------------
+4. home font-css
+--------------------------*/
+.navbar .right {
+  margin-right: 10px;
+}
+.navbar .left {
+  margin-left: 10px;
+}
+.page-menu .navbar {
+  background-color: #d44072;
+  height: 60px;
+}
+.navbar::after {
+  height: 0px;
+}
+.single-slider {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+.swiper-slide.swiper-slide img{
+  width: 100%;
+}
+.ks-slider-custom {
+  height: auto;
+}
+.slider-area .swiper-slide{position: relative;}
+.slider-area .swiper-slide::after {
+  background: #000000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+.swiper-slide.swiper-slide{ line-height: 0;}
+.slide-text {
+  bottom: 50%;
+  color: #ffffff;
+  left: 0;
+  line-height: 22px;
+  margin-bottom: -55px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+.slide-text h2 {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 26px;
+}
+.slide-text h2 span {
+  color: #fff;
+}
+.page {
+  background: #fff none repeat scroll 0 0;
+}
+.couple-area,.familiy-area{padding: 25px 0}
+.section-title {
+  text-align: center;
+}
+.section-title > h2 {
+  color: #f44482;
+  font-family: "Great Vibes",cursive;
+  font-size: 28px;
+  font-weight: normal;
+}
+.section-title p {
+  color: #666666;
+  line-height: 20px;
+  margin: 0;
+}
+.couple-box {
+  background-color: #f5f5f5;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-top: 50px;
+  padding-top: 26%;
+  position: relative;
+  text-align: center;
+}
+.couple-box:last-child {
+  margin-top: 55px;
+}
+.couple-img {
+  left: 0;
+  position: absolute;
+  top: -7%;
+  width: 100%;
+}
+.couple-img > img {
+  border-radius: 100%;
+  width: 31%;
+}
+.couple-text{}
+.couple-text > h2 {
+  color: #d44072;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 10px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.couple-text > span {
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.couple-text > p {
+  margin: 0;
+  padding: 10px 5px;
+}
+.social-icone {
+  padding: 20px 0;
+}
+.social-icone ul li{display: inline-block;margin: 0 10px}
+.social-icone ul li a {
+  background: #3e5998 none repeat scroll 0 0;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  height: 38px;
+  line-height: 40px;
+  padding: 0;
+  text-align: center;
+  width: 38px;
+}
+.social-icone ul li:nth-child(2) a{background: #4399FF}
+.social-icone ul li:nth-child(3) a{background: #0077B5}
+.fotter-text {
+  border-top: 1px solid #dddddd;
+}
+.fotter-text p {
+  font-weight: 300;
+  margin: 0;
+  padding: 18px 0;
+  text-align: center;
+}
+/*------------------------
+5. familiy  page font-css
+--------------------------*/
+.familiy-area {
+  padding: 25px 15px;
+}
+.borb {
+  border-bottom: 1px solid #dddddd;
+}
+.familiy-area .section-title > h2 {
+  margin-bottom: 0;
+}
+.familiy-area .couple-box {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 40px;
+  padding-top: 44%;
+}
+.familiy-area .social-icone ul li {
+  display: inline-block;
+  margin: 0 3px;
+}
+.familiy-area .social-icone ul li a {
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+}
+
+.familiy-area .couple-text > h2 {
+  font-size: 12px;
+  line-height: 3px;
+}
+
+.familiy-area .couple-img {
+  left: 0;
+  position: absolute;
+  top: -13%;
+  width: 100%;
+}
+.familiy-area .couple-img > img {
+  border-radius: 100%;
+  width: 46%;
+}
+/*------------------------
+6. our-story  page font-css
+--------------------------*/
+.university-area {
+  background-color: #000000;
+  padding: 25px 10px;
+}
+.university-area > h2 {
+  color: #ffffff;
+  font-family: "Great Vibes",cursive;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.university-area > p {
+  color: #ffffff;
+  margin-bottom: 0;
+  text-align: center;
+}
+.story-area{padding: 25px 0;}
+.story-area .section-title h2{margin-bottom: 10px;}
+.familiy-area.proposed {
+  background: rgba(0, 0, 0, 0) url("../img/story-bg.jpg") repeat scroll center center / cover ;
+  margin-bottom: 30px;
+  position: relative;
+}
+.gallerymain {
+  margin-top: 24px;
+  text-align: center;
+}
+.gallerymain .row .col-50 {
+  width: calc((100% - 10px * 1) / 2);
+}
+.familiy-area.img-gallery {
+  padding-bottom: 0;
+  padding-top: 25px;
+}
+.proposed-area {
+  padding-bottom: 14px;
+  padding-top: 15px;
+}
+.familiy-area.proposed::after {
+  background: #000000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.62;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.familiy-area.proposed .section-title {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.img-box {
+  line-height: 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+}
+/*------------------------
+7. gallery  page font-css
+--------------------------*/
+.img-box a h3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: -10px;
+  color: #444444;
+  font-weight: normal;
+  left: 0;
+  padding: 15px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+.pagination {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.pagination ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.pagination ul li {
+  display: inline-block;
+}
+.pagination ul li.active a{color:#D44072}
+.pagination ul li a {
+  color: #cccccc;
+  font-family: raleway;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 5px;
+}
+.pagination ul li a:hover{color:#D44072}
+.pagination ul li:first-child {
+  padding-right: 23%;
+}
+.pagination ul li:last-child {
+  padding-left: 23%;
+}
+/*------------------------
+8. invitation page font-css
+--------------------------*/
+.invitation > h4 {
+  color: #f44482;
+  font-family: "Great Vibes",cursive;
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0;
+}
+.invitation > p {
+  margin-top: 10px;
+  text-align: justify;
+}
+.invitation span {
+  padding-left: 20px;
+}
+/*------------------------
+9. registry page font-css
+--------------------------*/
+.registry-area {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+}
+.registry {
+  margin-top: 25px;
+  text-align: center;
+}
+.registry-box {
+  border: 1px solid #cccccc;
+  margin-bottom: 35px;
+  padding: 30px 0;
+}
+
+.registry .row .col-50 {
+  width: calc((100% - 30px * 1) / 2);
+}
+
+/*------------------------
+10. rsvp page font-css
+--------------------------*/
+.contact-form input, .contact-form select {
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.contact-form select {
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+option {
+  border-bottom: 1px solid #cccccc;
+  padding: 6px 5px;
+}
+.contact-form textarea {
+  border: 1px solid #ddd;
+  padding: 8px 2% 2%;
+  width: 96%;
+}
+.button-big {
+  background: #d44072 none repeat scroll 0 0;
+  border: 1px solid #d44072;
+  border-radius: 0;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 20px auto;
+  text-align: center;
+  width: 164px;
+  line-height: 35px;
+  height: 40px;
+}
+.contact-info {
+  margin-top: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.contact-form p {text-align: center;}
+.contact-form > h4 {
+  color: #555555;
+  font-size: 19px;
+  font-weight: normal;
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+
+
