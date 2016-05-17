@@ -1,0 +1,57 @@
+{
+  "ourStory":
+  {
+    "theCouple":"This shall be a general message from the couple as you can see. The Couple will tell us what they think and the followinf bla bla bla...",
+    "weddingDate":"1st January, 2017",
+    "groom":{
+      "name":"Kigsley Eze",
+      "about":"Life is a smooth transition and the moment your find a God sent Companion, you must be ready to get to the next level in life. I will sya that haven met and married my wife, i am ready to take a quantum reap of Gods blessings and the enjoyment that follows as well.",
+      "facebookLink":"http://www.facebook.com/jerryhanks",
+      "twitterHandler":"http://twitter.com/jerryhanks1",
+      "linkedinLink":"http://www.linkedin.com/jerryhanks"
+    },
+    "bride":{
+      "name":"Chika Chinakwe",
+      "about":"Life is a smooth transition and the moment your find a God sent Companion, you must be ready to get to the next level in life. I will sya that haven met and married my wife, i am ready to take a quantum reap of Gods blessings and the enjoyment that follows as well.",
+      "facebookLink":"http://www.facebook.com/jerryhanks",
+      "twitterHandler":"http://twitter.com/jerryhanks1",
+      "linkedinLink":"http://www.linkedin.com/jerryhanks"
+
+    },
+    "ourLoveStory":"This is a small love story that has only lasted for four months but i could not wait any longer and i took whats mine. And now i am a happy man",
+    "whoProposed":"He",
+    "whoSaidYes":"She",
+    "firstMetStory":"I first met jessica in the church just to tell you that i love going to Church and i am born again too, and the lord said to me that she is my wife.",
+    "gallery":{
+      "cap1":"Bith Day Gift",
+      "cap2":"Perfect Couple",
+      "cap3":"Engagement Ring",
+      "cap4":"Our Future Home",
+      "cap5":"Gifted Dog",
+      "cap6":"Funny Moment",
+      "cap7":"A Nice Time Out",
+      "cap8":"What a Love",
+      "cap9":"With All my Heart",
+      "cap10":"Any Thing for You",
+      "cap11":"Untill Death do us part",
+      "cap12":"I love you",
+      "cap13":"Message to Daddy",
+      "cap14":"Message to Mummy",
+      "cap15":"Guys Bye!",
+      "cap16":"Babes Bye",
+      "cap17":"Cool Ride",
+      "cap18":"My Baby",
+      "cap19":"Getting so Close",
+      "cap20":"First Kiss",
+      "cap21":"A night out",
+      "cap22":"I Propose",
+      "cap23":"She Said Yes",
+      "cap24":"We are Married"
+    }
+
+
+
+
+  }
+
+}

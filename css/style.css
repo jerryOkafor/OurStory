@@ -290,6 +290,7 @@ input[type=text]:focus,input[type=email]:focus,input[type=number]:focus,input[ty
 .familiy-area .couple-text > h2 {
   font-size: 12px;
   line-height: 3px;
+  margin-bottom: 10px;
 }
 
 .familiy-area .couple-img {
